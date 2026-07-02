@@ -3,10 +3,6 @@ import os
 
 SETTINGS_FILE = "settings.json"
 
-DEFAULT_DEVICES = {
-    "Sony TV": "10.33.225.16",
-    "My Phone": "10.33.225.89:43563"
-}
 
 def load_settings():
     if os.path.exists(SETTINGS_FILE):
