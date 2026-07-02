@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Universal Remote - Control your Android TV and devices wirelessly with a powerful, modern desktop application.">
+    <title>Universal Remote | The Ultimate Android Control Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+    
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">📺</span>
+            Universal<span class="gradient-text">Remote</span>
+        </div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#download" class="nav-btn">Get Started</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Control your Android World, <br><span class="gradient-text">Wirelessly.</span></h1>
+            <p>Seamlessly control Android devices and Smart TVs over your local network using ADB. No cables. No latency. Pure control.</p>
+            <div class="hero-buttons">
+                <a href="#download" class="primary-btn">
+                    Download for Windows
+                    <span class="glow"></span>
+                </a>
+                <a href="https://github.com/baizo7/UniversalRemote" class="secondary-btn" target="_blank">View on GitHub</a>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                    <img src="app-screenshot.png" alt="Remote Interface" class="carousel-slide active">
+                    <img src="mockup-files.png" alt="File Manager Interface" class="carousel-slide">
+                    <img src="mockup-settings.png" alt="Settings Interface" class="carousel-slide">
+                </div>
+                <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2 class="hidden">Powerful Features</h2>
+            <div class="feature-grid">
+                <div class="glass-card hidden">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Wireless ADB</h3>
+                    <p>Connect instantly over your local Wi-Fi network without hunting for a USB cable.</p>
+                </div>
+                <div class="glass-card hidden" style="transition-delay: 100ms">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Smart TV Control</h3>
+                    <p>Send native Android key events like D-Pad navigation, Volume, and Power directly to your TV.</p>
+                </div>
+                <div class="glass-card hidden" style="transition-delay: 200ms">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Highly Protected</h3>
+                    <p>Built with enterprise-grade obfuscation to ensure maximum performance and security.</p>
+                </div>
+                <div class="glass-card hidden" style="transition-delay: 300ms">
+                    <div class="feature-icon">📁</div>
+                    <h3>File Management</h3>
+                    <p>Push movies, pull files, and manage your device's storage effortlessly with live progress tracking.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="cta-section hidden">
+            <h2>Ready to take control?</h2>
+            <p>Download the fully compiled, standalone executable. No installation required.</p>
+            <a href="#" class="primary-btn large" onclick="alert('Download link will be added soon!')">
+                Download Latest Version
+                <span class="glow"></span>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 S SANJAI. All Rights Reserved.</p>
+        <p class="footer-sub">This software is proprietary and confidential.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
