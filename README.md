@@ -2,6 +2,9 @@
 
 Universal Remote is a powerful, Python-based desktop application designed to let you seamlessly control Android devices and Smart TVs over your local network using ADB (Android Debug Bridge). 
 
+Experience the official website and download the application ----->  "https://universal-remote-seven.vercel.app/"
+
+
 ## 🌟 Features
 - **Wireless Connection**: Connect to your Android TV or phone over Wi-Fi without needing a USB cable.
 - **Full Remote Control**: Send native Android key events (Home, Back, Power, Volume up/down, D-Pad navigation, etc.) directly from your computer.
@@ -35,6 +38,9 @@ If you want to run the application from the source code:
 ## ⚠️ Requirements
 - Both your PC and the Android device must be on the **same Wi-Fi network**.
 - **Wireless Debugging** must be enabled on the target Android device.
+
+## Note 
+-  if the application doesn't work please clone this repository and use it. Thankyou :)
 
 ## ⚖️ License
 This project is proprietary and closed-source. See the `LICENSE` file for more details.
